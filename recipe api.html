@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="recipe api.css"><link/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe App</h1>
+            <form>
+                <input type="text" placeholder="Search For Recipe..." class="searchBox"/>
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>  
+    <main>
+        <section>
+            <div class="recipe-container">
+            <h2> Search For Recipe</h2>  
+            </div>  
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="recipe-details-content"></div>
+            </div> 
+          </section>
+    </main>
+     <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
+     <script src="recipe api.js"></script>
+</body>
+</html>
